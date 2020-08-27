@@ -41,12 +41,12 @@ namespace Microsoft.Teams.Apps.CannedResponses.Cards
         /// <summary>
         /// Sets approval status as approved whenever new suggestion is submitted.
         /// </summary>
-        private const string ApprovedRequestStatus = "Approved";
+        private const string ApprovedRequestStatus = "承認済み";
 
         /// <summary>
         /// Sets approval status as rejected whenever new suggestion is submitted.
         /// </summary>
-        private const string RejectedRequestStatus = "Rejected";
+        private const string RejectedRequestStatus = "却下";
 
         /// <summary>
         /// Get new response request card to create new response.

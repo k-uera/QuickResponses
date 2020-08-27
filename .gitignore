@@ -442,3 +442,16 @@ local.settings.json
 !.vscode/launch.json
 !.vscode/extensions.json
 .ionide/*
+Source/Microsoft.Teams.Apps.CannedResponses/ClientApp/build/asset-manifest.json
+Source/Microsoft.Teams.Apps.CannedResponses/ClientApp/build/index.html
+Source/Microsoft.Teams.Apps.CannedResponses/ClientApp/build/precache-manifest.36719e1bdd8cae60f2f6bfa35c330c21.js
+Source/Microsoft.Teams.Apps.CannedResponses/ClientApp/build/service-worker.js
+Source/Microsoft.Teams.Apps.CannedResponses/ClientApp/build/static/css/main.3dc3f6f2.chunk.css
+Source/Microsoft.Teams.Apps.CannedResponses/ClientApp/build/static/css/main.3dc3f6f2.chunk.css.map
+Source/Microsoft.Teams.Apps.CannedResponses/ClientApp/build/static/js/2.798551cb.chunk.js
+Source/Microsoft.Teams.Apps.CannedResponses/ClientApp/build/static/js/2.798551cb.chunk.js.LICENSE
+Source/Microsoft.Teams.Apps.CannedResponses/ClientApp/build/static/js/2.798551cb.chunk.js.map
+Source/Microsoft.Teams.Apps.CannedResponses/ClientApp/build/static/js/main.841d32b7.chunk.js
+Source/Microsoft.Teams.Apps.CannedResponses/ClientApp/build/static/js/main.841d32b7.chunk.js.map
+Source/Microsoft.Teams.Apps.CannedResponses/ClientApp/build/static/js/runtime-main.d9029e3b.js
+Source/Microsoft.Teams.Apps.CannedResponses/ClientApp/build/static/js/runtime-main.d9029e3b.js.map

@@ -19,7 +19,7 @@ namespace Microsoft.Teams.Apps.CannedResponses.Helpers
         /// <summary>
         /// Sets approval status as pending whenever new suggestion is submitted.
         /// </summary>
-        private const string PendingRequestStatus = "Pending";
+        private const string PendingRequestStatus = "保留中";
 
         /// <summary>
         /// Instance to send logs to the Application Insights service.

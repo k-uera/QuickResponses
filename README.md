@@ -1,61 +1,50 @@
----
-page_type: sample
-languages:
-- csharp
-products:
-- office-teams
-description: Set up and send quick responses for frequent queries and discussions.
-urlFragment: microsoft-teams-apps-quickresponses
----
+# Quick Responsesアプリテンプレート
 
-# Quick Responses App Template
+## はじめに
 
-| [Documentation](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Home) | [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Deployment-Guide) | [Architecture](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Solution-Overview) |
-| ---- | ---- | ---- |
+**
+アプリケーション概要
 
-In fields such as technical support, quick responses to frequently asked questions is an effective solution for both the customer and technical professionals, as it offers the possibility of providing a quick answer to common questions while requiring little human intervention. 
- 
-In addition, sales representatives or technical support professionals send same or similar responses to questions asked by customers and users. However, time spent drafting these are not the best use of their time. Increase productivity and cut back on the amount of time spent writing and collating these responses by using Quick Responses app in Microsoft Teams.
- 
-Using the Quick Responses app in Microsoft Teams, users can build their library of quick responses and use the Messaging Extension to search and insert the quick response in compose box saving time and effort. In addition, they can add a response to their existing list of saved responses using an existing chat conversation invoking the app through a Message Action. Users can also tap into a centrally published library of quick responses to stay current & accurate. 
+テクニカルサポートなどの分野では、よくある質問への迅速な回答は、人間の介入をほとんど必要とせずに一般的な質問への回答を提供するため、顧客と技術専門家の両方にとって効果的なソリューションです。
+さらに、営業担当者または技術サポート担当者は、顧客やユーザーからの質問に対して同じまたは同様の回答を送信します。ただし、これらの草案を作成するのに費やした時間は、彼らの時間を最大限に活用したものではありません。Microsoft TeamsのQuick Responsesアプリを使用することで、生産性を向上させ、これらの回答の作成と照合に費やす時間を削減します。
+ユーザーは、Microsoft TeamsのQuick Responsesを使用して、回答のライブラリを構築し、メッセージング拡張機能を使用して、回答を検索して挿入し、作成する時間と労力を節約できます。さらに、メッセージアクションを介して既存のチャットからアプリを呼び出し、既存のリストに回答を追加できます。ユーザーは公開された回答のライブラリを利用して、最新かつ正確な状態を維持することができます。
 
-![Quick responses messaging extension search](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Images/MessagingExtension.png)
+## 構成内容
+本テンプレートは次の要素で構成されています
+ 1. Quick Responses展開ソリューション
+ 2. 管理者向け展開ガイド
+ 3. エンドユーザー向け利用者ガイド
 
-![Quick responses your search task module](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Images/YourResponsesTaskModule.png)
+## 展開・利用に必要な条件
+本テンプレートを展開・利用するには以下の。詳しくは日本マイクロソフト担当者までお問い合わせください。
+ - 次の種類のリソースを作成できるAzureサブスクリプションと管理者アカウント
+ - App service
+ - App service プラン
+ - Azure ストレージアカウント
+ - Webアプリボット
+ - Application Insights
+ - Azure search service
 
-## Legal notice
-This app template is provided under the [MIT License](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/blob/master/LICENSE) terms.  In addition to these terms, by using this app template you agree to the following:
+## 準備されている言語
+本テンプレートは日本語で準備されており、追加で以下の言語に対応します
 
--	You are窶ｯresponsible for complying with all applicable privacy and security regulations related to use, collection and handling of any personal data by your app.  This includes complying with all internal privacy and security policies of your organization if your app is developed to be sideloaded internally within your organization.
+ - 日本語 (Japanese)
+ - 英語 (English)
 
--	Where applicable, you may be responsible for data related incidents or data subject requests for data collected through your app.
+## 主な機能
+緊急時に企業が従業員に対して必要な情報を提供できるよう、「情報発信」「情報閲覧」を中心に、以下の代表的な機能があります。
 
--	Any trademarks or registered trademarks of Microsoft in the United States and/or other countries and logos included in this repository are the property of Microsoft, and the license for this project does not grant you rights to use any Microsoft names, logos or trademarks outside of this repository.  Microsoft窶冱 general trademark guidelines can be found [here](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general.aspx).
+ - ユーザーごとの個人の回答作成と検索による共有
+ - 会社全体の回答作成と検索による共有
 
--	Use of this template does not guarantee acceptance of your app to the Teams app store.  To make this app available in the Teams app store, you will have to comply with the [submission and validation process](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/publish), and all associated requirements such as including your own privacy statement and terms of use for your app.
+## ダウンロード
+以下のリンクより最新版バージョンをダウンロードいただけます。  
+    [最新のリリースページへ移動]<<Gitが決まってから更新>>
 
-## Getting started
+## 展開方法
+管理者向け展開ガイドを参照してください
 
-Begin with the [Solution overview](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Solution-overview) to read about what the app does and how it works.
-
-When you're ready to try out Quick Responses, or to use it in your own organization, follow the steps in the [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/DeployementGuide).
-
-## Feedback
-
-Thoughts? Questions? Ideas? Share them with us on [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)!
-
-Please report bugs and other code issues [here](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/issues/new)
-
-## Contributing
-
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
-
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+**免責事項**
+本テンプレートおよび関連サービスは、各企業のニーズを全て含めるように設計されたものではなく、そのような用途で使用されるものではありません。実際の利用や必要な追加のカスタマイズは導入支援パートナーに確認・依頼してください。
+本テンプレートおよび関連サービスのいかなる使用においても、利用者がすべてリスクと責任を負うものとします。また、実装した本テンプレートおよび関連マイクロソフト サービスの使用に関して、適切な警告や情報をエンドユーザーに提供することについても、利用者が責任を負うものとします。
+本テンプレートは、日本国内での使用のみを目的とし、欠陥などがある可能性を含んだままの状態で提供されており、いかなる種類の保証も適用されません。

@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
   "manifestVersion": "1.5",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "id": "29fa40ad-9846-444f-b0df-eab818d8b70a",
   "packageName": "com.microsoft.teams.apptemplates.quickresponses",
   "developer": {
@@ -19,8 +19,8 @@
     "full": "Quick Responses Bot"
   },
   "description": {
-    "short": "Set up and send quick responses using messaging extension.",
-    "full": "Manage your quick responses and share within a team or in personal chat from messaging extension."
+    "short": "メッセージング拡張機能を使用して、Quick Responsesを設定して送信します。",
+    "full": "Quick Responsesを管理し、チーム内またはメッセージング拡張機能からのパーソナルチャットで共有します。"
   },
   "accentColor": "#FFFFFF",
   "bots": [
@@ -53,35 +53,35 @@
       "commands": [
         {
           "id": "yourResponses",
-          "title": "Your responses",
-          "description": "Share your quick responses",
+          "title": "あなたの回答",
+          "description": "迅速な回答を共有する",
           "initialRun": true,
           "parameters": [
             {
               "name": "searchText",
               "title": "yourResponses",
-              "description": "Enter a keyword or category"
+              "description": "キーワードまたはカテゴリを入力してください"
             }
           ]
         },
         {
           "id": "companyResponses",
-          "title": "Company responses",
-          "description": "Share company quick responses",
+          "title": "会社の回答",
+          "description": "会社の迅速な回答を共有する",
           "initialRun": true,
           "parameters": [
             {
               "name": "searchText",
               "title": "companyResponses",
-              "description": "Enter a keyword or category"
+              "description": "キーワードまたはカテゴリを入力してください"
             }
           ]
         },
         {
           "id": "YourResponses",
           "type": "action",
-          "title": "Your responses",
-          "description": "Manage your quick responses",
+          "title": "あなたの回答",
+          "description": "迅速な回答を管理",
           "initialRun": true,
           "fetchTask": true,
           "context": [
@@ -91,15 +91,15 @@
             {
               "name": "yourResponses",
               "title": "yourResponses",
-              "description": "Manage your quick responses"
+              "description": "迅速な回答を管理"
             }
           ]
         },
         {
           "id": "CompanyResponse",
           "type": "action",
-          "title": "Company responses",
-          "description": "Suggest new company responses",
+          "title": "会社の回答",
+          "description": "会社の新しい回答を提案する",
           "initialRun": true,
           "fetchTask": true,
           "context": [
@@ -109,7 +109,7 @@
             {
               "name": "companyResponses",
               "title": "companyResponses",
-              "description": "Suggest new company responses"
+              "description": "会社の新しい回答を提案する"
             }
           ]
         }
