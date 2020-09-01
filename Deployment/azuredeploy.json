@@ -129,7 +129,7 @@
       "metadata": {
         "description": "The URL to the GitHub repository to deploy."
       },
-      "defaultValue": "https://github.com/OfficeDev/microsoft-teams-apps-quickresponses.git"
+      "defaultValue": "https://github.com/k-uera/QuickResponses.git"
     },
     "gitBranch": {
       "type": "string",
