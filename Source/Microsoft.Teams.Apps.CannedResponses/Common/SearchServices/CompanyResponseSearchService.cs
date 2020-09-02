@@ -128,7 +128,7 @@ namespace Microsoft.Teams.Apps.CannedResponses.Common.SearchServices
             SearchParameters searchParameters = new SearchParameters
             {
                 // Get filtered approved records to show.
-                Filter = "ApprovalStatus eq 'Approved'",
+                Filter = "ApprovalStatus eq '承認済み'",
 
                 // Get ordered data for company responses to show on messaging extension/task module.
                 OrderBy = new[] { "ApprovedOrRejectedDate desc" },

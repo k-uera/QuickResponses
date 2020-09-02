@@ -1,14 +1,14 @@
 {
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
   "manifestVersion": "1.5",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "id": "23e0f7b5-ffeb-4ce5-ac04-d7b6d7a4e605",
   "packageName": "com.microsoft.teams.apptemplates.quickresponsesadmin",
   "developer": {
-    "name": "PSC Inc.",
-    "websiteUrl": "https://coo-kai.jp/",
-    "privacyUrl": "https://coo-kai.jp/",
-    "termsOfUseUrl": "https://coo-kai.jp/"
+    "name": "<developer name>",
+    "websiteUrl": "<website url>",
+    "privacyUrl": "<privacy url>",
+    "termsOfUseUrl": "<terms of use url>"
   },
   "icons": {
     "color": "color.png",
@@ -25,7 +25,7 @@
   "accentColor": "#FFFFFF",
   "bots": [
     {
-      "botId": "382ce2d7-904a-49c4-886e-d9b8f8c53955",
+      "botId": "<<botId>>",
       "scopes": [
         "team"
       ],
@@ -51,6 +51,6 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "QuickResponses0819.azurewebsites.net"
+    "<<appDomain>>"
   ]
 }

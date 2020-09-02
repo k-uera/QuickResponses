@@ -37,9 +37,9 @@ Quick ResponsesƒAƒvƒŠ‚ÍAƒ†[ƒU[‚©‚ç‚æ‚­Šñ‚¹‚ç‚ê‚éŽ¿–â‚É‘Î‚µ‚ÄŒø—¦“I‚É‰ñ“š‚·‚é‚
  - ‚æ‚­Šñ‚¹‚ç‚ê‚éŽ¿–â‚Ì‰ñ“š‚ðƒ†[ƒU[‚²‚Æ‚É“o˜^‚µ‚ÄŠÇ—
  - ‘gD‘S‘Ì‚Å‚Ì‰ñ“š‚Ì‹¤—L
  - “o˜^‚³‚ê‚½‰ñ“š‚ð‘f‘‚­ŒŸõ‚µ‚Ä’ñ‹Ÿ
-![‰ñ“š‚ÌŒŸõ](image001.png)
+![‰ñ“š‚ÌŒŸõ](img/image001.png)
 
-![‰ñ“š‚ÌŠÇ—](image002.png)
+![‰ñ“š‚ÌŠÇ—](img/image002.png)
 
 ## ƒ_ƒEƒ“ƒ[ƒh
 ˆÈ‰º‚ÌƒŠƒ“ƒN‚æ‚èÅV”Åƒo[ƒWƒ‡ƒ“‚ðƒ_ƒEƒ“ƒ[ƒh‚¢‚½‚¾‚¯‚Ü‚·B  
